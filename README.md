@@ -67,8 +67,16 @@ Pada tahap ini dilakukan eksplorasi awal terhadap dataset Apple Global Product S
 
 Langkah pertama adalah menampilkan beberapa baris awal data menggunakan head() untuk memperoleh gambaran umum mengenai isi dataset, seperti format data, nama kolom, serta contoh nilai pada setiap variabel.
 
+![Top 5 Data](Images/top_5_data_1.png)
+
+![Top 5 Data](Images/top_5_data_2.png)
+
 Selanjutnya dilakukan pengecekan struktur dataset menggunakan info() untuk mengetahui tipe data dari masing-masing atribut, jumlah data, serta mendeteksi adanya nilai yang tidak lengkap (missing values).
 
+![Data Info](Images/data_info.png)
+
 Selain itu, dilakukan juga identifikasi jumlah missing values pada setiap kolom menggunakan isnull().sum(). Tahapan ini bertujuan untuk memastikan kualitas data dan menentukan langkah preprocessing yang diperlukan sebelum masuk ke tahap analisis lebih lanjut.
+
+![Data Null](Images/data_is_null_sum.png)
 
 Melalui proses ini, diperoleh pemahaman awal mengenai kondisi dataset sehingga dapat membantu dalam menentukan strategi analisis yang tepat pada tahap berikutnya.
