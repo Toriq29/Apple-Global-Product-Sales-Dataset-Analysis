@@ -222,3 +222,12 @@ Alasan:
 - Masih sesuai dengan kategori produk premium Apple
 - Bukan kesalahan input data
 - Tetap penting untuk merepresentasikan variasi harga sebenarnya
+
+<br>
+
+### Penanganan Outlier pada Variabel "unit_price_usd"
+
+![Top 5 Data](Images/revenue_usd.png)
+
+Nilai maksimum pada revenue_usd dipertahankan tanpa penghapusan maupun transformasi karena berdasarkan hasil pemeriksaan top 10 data tertinggi, nilai sebesar 59.529 USD berasal dari transaksi pembelian produk Mac Pro (M2 Ultra) sebanyak 5–8 unit dengan harga per unit sekitar 6.893,36–7.441,19 USD, sehingga nilai revenue tersebut masih valid secara logis dan bisnis.
+
