@@ -2,17 +2,7 @@
 
 Dalam era digital saat ini, data menjadi aset penting dalam pengambilan keputusan bisnis. Pada project ini, dilakukan analisis terhadap dataset Apple Global Product Sales Dataset untuk memahami performa penjualan produk Apple secara global serta mengidentifikasi faktor-faktor yang mempengaruhi pendapatan perusahaan.
 
-Analisis ini bertujuan untuk menggali insight dari data penjualan, mulai dari tren penjualan, distribusi geografis, hingga pengaruh diskon terhadap revenue. Dengan pendekatan berbasis data, diharapkan hasil analisis ini dapat memberikan gambaran yang lebih jelas mengenai strategi bisnis yang efektif.
-
-Cakupan analisis dalam project ini meliputi:
-1. Analisis Penjualan (Sales Analysis) – untuk memahami pola dan volume penjualan produk
-2. Analisis Revenue (Pendapatan) – untuk mengevaluasi kontribusi pendapatan dari berbagai segmen
-3. Analisis Diskon – untuk melihat pengaruh diskon terhadap performa penjualan
-4. Analisis Waktu (Time Series) – untuk mengidentifikasi tren dan pola musiman
-5. Analisis Geografis – untuk mengetahui distribusi penjualan berdasarkan wilayah
-6. Analisis Produk Detail – untuk membandingkan performa antar produk
-7. Analisis Mata Uang – untuk memahami dampak variasi mata uang terhadap revenue
-8. Analisis Korelasi (Advanced) – untuk mengidentifikasi hubungan antar variabel dalam dataset
+Analisis ini bertujuan untuk menggali insight yang diharapkan hasil analisis ini dapat memberikan gambaran yang lebih jelas mengenai strategi bisnis yang efektif.
 
 Melalui analisis ini, diharapkan dapat ditemukan insight yang relevan untuk mendukung pengambilan keputusan strategis berbasis data serta meningkatkan pemahaman terhadap dinamika penjualan produk Apple di pasar global.
 
@@ -254,3 +244,5 @@ Nilai maksimum pada revenue_local_currency dipertahankan tanpa penghapusan maupu
 ## Exploratory Data Analysis
 
 Setelah seluruh proses data cleaning dilakukan, termasuk penanganan missing values, validasi variabel, serta evaluasi outlier, dataset kini berada dalam kondisi yang lebih bersih, konsisten, dan siap digunakan untuk tahap selanjutnya. Dengan kualitas data yang telah ditingkatkan, proses analisis dapat dilakukan dengan lebih akurat dan representatif. Oleh karena itu, tahap berikutnya adalah melakukan analisis data untuk menggali insight, pola, dan informasi penting dari dataset.
+
+Pada tahap ini, kita akan memasuki proses Exploratory Data Analysis (EDA) untuk memahami pola, tren, dan insight penting dari dataset yang telah dibersihkan. Namun, jika EDA hanya berfokus pada sekadar menampilkan plot atau grafik tanpa arah yang jelas, prosesnya bisa terasa monoton dan kurang menarik. Oleh karena itu, pendekatan yang digunakan bukan hanya sekadar visualisasi data, tetapi melalui 10 pertanyaan investigatif yang lebih menarik dan relevan, sehingga setiap analisis memiliki tujuan yang jelas, mampu menggali cerita di balik data, serta membuktikan insight penting yang dapat mendukung pemahaman bisnis secara lebih mendalam.
