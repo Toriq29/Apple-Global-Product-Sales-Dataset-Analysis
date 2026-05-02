@@ -140,5 +140,32 @@ Secara keseluruhan, keberadaan outlier pada variabel-variabel tersebut perlu dit
 <br>
 
 Melalui proses ini, diperoleh pemahaman awal mengenai kondisi dataset sehingga dapat membantu dalam menentukan strategi analisis yang tepat pada tahap berikutnya.
+<br>
+<br>
+<br>
 
+## Cleaning Dataset
+Setelah dilakukan proses eksplorasi awal dan evaluasi kualitas data, ditemukan beberapa permasalahan pada dataset seperti missing values, inkonsistensi format, serta indikasi outlier pada beberapa variabel. Temuan ini menunjukkan bahwa data mentah masih memerlukan perbaikan agar lebih akurat, konsisten, dan siap digunakan pada tahap analisis berikutnya.
+
+Oleh karena itu, tahap selanjutnya adalah data cleaning atau pembersihan dataset, yang bertujuan untuk menangani berbagai permasalahan tersebut melalui proses seperti penanganan missing values, validasi data, standarisasi variabel, serta koreksi terhadap nilai-nilai yang tidak sesuai. Proses ini sangat penting untuk memastikan bahwa hasil analisis yang dilakukan nantinya lebih valid, representatif, dan dapat dipercaya.
+
+<br>
+
+### Penanganan Missing Values pada Variabel "storage"
+Ditemukan sebanyak 4.804 missing values pada variabel storage. Setelah dilakukan pemeriksaan lebih lanjut terhadap produk-produk dengan nilai null, diketahui bahwa sebagian besar missing value tersebut berasal dari produk yang memang tidak memiliki atribut kapasitas penyimpanan (storage) yang relevan, seperti AirPods, USB-C accessories, Magic Keyboard, dan beberapa aksesori lainnya.
+
+Oleh karena itu, missing values pada variabel storage tidak dianggap sebagai kesalahan data, melainkan mencerminkan kondisi produk yang memang tidak memerlukan informasi storage sebagai spesifikasi utama.
+
+Seluruh nilai null pada variabel storage diisi dengan kategori: "Not Applicable"
+
+Alasan:
+- Menjaga konsistensi data kategorikal
+- Menghindari penghapusan data yang sebenarnya valid
+- Memudahkan proses analisis dan encoding pada tahap preprocessing
+- Membedakan antara “data hilang karena error” dan “data tidak relevan secara atribut”
+
+
+Catatan:
+Meskipun beberapa produk seperti Apple Watch secara teknis memiliki kapasitas penyimpanan internal, storage bukan merupakan spesifikasi utama yang umum digunakan dalam keputusan pembelian dibandingkan produk utama seperti iPhone, iPad, atau MacBook. Selain itu, informasi storage pada kategori tersebut sering kali tidak dicantumkan secara konsisten dalam dataset, sehingga untuk menjaga standardisasi, produk non-mainstream juga dikelompokkan ke dalam kategori “Not Applicable”.
+  
 
