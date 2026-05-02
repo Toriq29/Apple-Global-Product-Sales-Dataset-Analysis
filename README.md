@@ -152,6 +152,9 @@ Oleh karena itu, tahap selanjutnya adalah data cleaning atau pembersihan dataset
 <br>
 
 ### Penanganan Missing Values pada Variabel "storage"
+
+![Top 5 Data](Images/null_storage.png)
+
 Ditemukan sebanyak 4.804 missing values pada variabel storage. Setelah dilakukan pemeriksaan lebih lanjut terhadap produk-produk dengan nilai null, diketahui bahwa sebagian besar missing value tersebut berasal dari produk yang memang tidak memiliki atribut kapasitas penyimpanan (storage) yang relevan, seperti AirPods, USB-C accessories, Magic Keyboard, dan beberapa aksesori lainnya.
 
 Oleh karena itu, missing values pada variabel storage tidak dianggap sebagai kesalahan data, melainkan mencerminkan kondisi produk yang memang tidak memerlukan informasi storage sebagai spesifikasi utama.
