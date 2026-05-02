@@ -240,3 +240,11 @@ Nilai maksimum pada revenue_usd dipertahankan tanpa penghapusan maupun transform
 ![Top 5 Data](Images/vietnam2.png)
 
 Nilai maksimum pada fx_rate_to_usd sebesar 24.500 dipertahankan tanpa penghapusan maupun transformasi karena setelah dilakukan validasi, nilai tersebut merepresentasikan kurs riil 1 USD terhadap Dong Vietnam pada periode 2022–2024, sehingga meskipun terlihat ekstrem dibandingkan median, nilai tersebut merupakan perbedaan karakteristik mata uang antarnegara dan bukan merupakan outlier atau kesalahan data.
+
+<br>
+
+### Penanganan Outlier pada Variabel "revenue_local_currency"
+
+![Top 5 Data](Images/vietnam3.png)
+
+Nilai maksimum pada revenue_local_currency dipertahankan tanpa penghapusan maupun transformasi karena nilai sebesar 507.517.500 merupakan hasil valid dari efek kombinasi kurs tinggi Dong Vietnam terhadap USD (24.500) serta transaksi pembelian Mac Pro (M2 Ultra) sebanyak 3 unit, sehingga meskipun terlihat sangat besar, nilai tersebut merupakan konsekuensi logis dari perbedaan mata uang dan transaksi bernilai tinggi, bukan outlier atau kesalahan data.
