@@ -188,3 +188,23 @@ Alasan:
 - Imputasi tidak representatif
 - Mengurangi noise pada dataset
 - Fokus pada variabel yang lebih lengkap dan relevan
+
+<br>
+
+### Penanganan Missing Values pada Variabel "customer_rating"
+
+Variabel customer_rating memiliki 3.360 missing values. Jumlah ini masih tergolong dapat ditangani tanpa perlu menghapus variabel, sehingga nilai kosong diisi menggunakan median.
+
+Pemilihan median dilakukan karena lebih stabil terhadap outlier dibandingkan mean, sehingga dapat menjaga distribusi data tetap representatif.
+
+![Top 5 Data](Images/handle_rating.png)
+
+Alasan:
+- Jumlah missing values masih dapat dikelola
+- Variabel tetap dipertahankan untuk analisis
+- Median lebih aman terhadap nilai ekstrem
+- Menjaga distribusi data lebih stabil
+
+<br>
+
+### Penanganan Outlier pada Variabel "unit_price_usd"
