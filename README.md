@@ -208,3 +208,17 @@ Alasan:
 <br>
 
 ### Penanganan Outlier pada Variabel "unit_price_usd"
+
+![Top 5 Data](Images/distibution_plot_unit_price_usd.png)
+
+![Top 5 Data](Images/mac_pro.png)
+
+Berdasarkan hasil analisis distribusi data melalui plot serta pemeriksaan terhadap 10 nilai tertinggi pada variabel unit_price_usd, ditemukan bahwa nilai maksimum sebesar 7.551 USD bukan merupakan anomali atau kesalahan data.
+
+Nilai maksimum pada unit_price_usd dipertahankan tanpa penghapusan maupun transformasi karena teridentifikasi sebagai harga produk Mac Pro (M2 Ultra) yang termasuk kategori high-end, sehingga masih relevan dan valid secara bisnis.
+
+Alasan:
+- Nilai tinggi berasal dari produk nyata
+- Masih sesuai dengan kategori produk premium Apple
+- Bukan kesalahan input data
+- Tetap penting untuk merepresentasikan variasi harga sebenarnya
