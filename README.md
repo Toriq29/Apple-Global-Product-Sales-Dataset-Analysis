@@ -161,6 +161,8 @@ Oleh karena itu, missing values pada variabel storage tidak dianggap sebagai kes
 
 Seluruh nilai null pada variabel storage diisi dengan kategori: "Not Applicable"
 
+![Top 5 Data](Images/handle_storage.png)
+
 Alasan:
 - Menjaga konsistensi data kategorikal
 - Menghindari penghapusan data yang sebenarnya valid
@@ -171,4 +173,14 @@ Alasan:
 Catatan:
 Meskipun beberapa produk seperti Apple Watch secara teknis memiliki kapasitas penyimpanan internal, storage bukan merupakan spesifikasi utama yang umum digunakan dalam keputusan pembelian dibandingkan produk utama seperti iPhone, iPad, atau MacBook. Selain itu, informasi storage pada kategori tersebut sering kali tidak dicantumkan secara konsisten dalam dataset, sehingga untuk menjaga standardisasi, produk non-mainstream juga dikelompokkan ke dalam kategori “Not Applicable”.
   
+### Penanganan Missing Values pada Variabel "previous_device_os"
 
+Variabel previous_device_os memiliki 8.056 missing values, jumlah yang sangat besar sehingga dapat mengurangi kualitas analisis jika tetap digunakan.
+
+Meskipun variabel ini berpotensi memberikan insight terkait perangkat sebelumnya yang digunakan pelanggan, proporsi data kosong yang terlalu tinggi membuat imputasi kurang akurat dan berisiko menimbulkan bias.
+
+Alasan:
+- Missing values terlalu banyak
+- Imputasi tidak representatif
+- Mengurangi noise pada dataset
+- Fokus pada variabel yang lebih lengkap dan relevan
