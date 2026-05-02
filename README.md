@@ -252,3 +252,5 @@ Nilai maksimum pada revenue_local_currency dipertahankan tanpa penghapusan maupu
 <br>
 
 ## Exploratory Data Analysis
+
+Setelah seluruh proses data cleaning dilakukan, termasuk penanganan missing values, validasi variabel, serta evaluasi outlier, dataset kini berada dalam kondisi yang lebih bersih, konsisten, dan siap digunakan untuk tahap selanjutnya. Dengan kualitas data yang telah ditingkatkan, proses analisis dapat dilakukan dengan lebih akurat dan representatif. Oleh karena itu, tahap berikutnya adalah melakukan analisis data untuk menggali insight, pola, dan informasi penting dari dataset.
