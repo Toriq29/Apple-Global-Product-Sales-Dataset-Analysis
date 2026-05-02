@@ -231,3 +231,10 @@ Alasan:
 
 Nilai maksimum pada revenue_usd dipertahankan tanpa penghapusan maupun transformasi karena berdasarkan hasil pemeriksaan top 10 data tertinggi, nilai sebesar 59.529 USD berasal dari transaksi pembelian produk Mac Pro (M2 Ultra) sebanyak 5–8 unit dengan harga per unit sekitar 6.893,36–7.441,19 USD, sehingga nilai revenue tersebut masih valid secara logis dan bisnis.
 
+<br>
+
+### Penanganan Outlier pada Variabel "fx_rate_to_usd"
+
+![Top 5 Data](Images/vietnam.png)
+
+Nilai maksimum pada fx_rate_to_usd sebesar 24.500 dipertahankan tanpa penghapusan maupun transformasi karena setelah dilakukan validasi, nilai tersebut merepresentasikan kurs riil 1 USD terhadap Dong Vietnam pada periode 2022–2024, sehingga meskipun terlihat ekstrem dibandingkan median, nilai tersebut merupakan perbedaan karakteristik mata uang antarnegara dan bukan merupakan outlier atau kesalahan data.
