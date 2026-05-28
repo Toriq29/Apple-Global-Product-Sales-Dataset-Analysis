@@ -298,6 +298,20 @@ Kontribusi revenue terbesar tidak selalu hanya berasal dari negara dengan ekonom
 
 Mengetahui apakah harga tinggi menurunkan demand atau justru premium products tetap laku.
 
+Berdasarkan hasil analisis korelasi, hubungan antara unit_price_usd dan quantity memiliki nilai korelasi sebesar -0.003446. Nilai ini sangat mendekati nol, sehingga menunjukkan bahwa harga produk hampir tidak memiliki hubungan terhadap jumlah pembelian.
+
+Meskipun terdapat arah korelasi negatif, nilainya sangat kecil sehingga dapat dianggap tidak signifikan. Hal ini menunjukkan bahwa produk dengan harga tinggi tidak selalu dibeli dalam jumlah sedikit, dan produk murah juga tidak selalu dibeli dalam jumlah banyak.
+
+Insight:
+
+Harga produk bukan faktor utama yang memengaruhi quantity pembelian
+Produk premium Apple tetap memiliki demand meskipun harga tinggi
+Loyalitas brand dan kebutuhan pengguna kemungkinan lebih berpengaruh dibanding harga
+
+Kesimpulan:
+
+Dalam dataset ini, tidak ditemukan hubungan yang signifikan antara harga produk dan jumlah pembelian. Temuan ini menunjukkan bahwa perilaku konsumen terhadap produk Apple cenderung tidak terlalu sensitif terhadap harga, terutama pada produk-produk premium.
+
 ### 4. Storage mana yang paling diminati customer?
 
 Insight penting untuk preferensi spesifikasi (128GB, 256GB, dll).
