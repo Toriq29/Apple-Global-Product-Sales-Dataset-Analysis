@@ -298,7 +298,7 @@ Kontribusi revenue terbesar tidak selalu hanya berasal dari negara dengan ekonom
 
 Mengetahui apakah harga tinggi menurunkan demand atau justru premium products tetap laku.
 
-Berdasarkan hasil analisis korelasi, hubungan antara unit_price_usd dan quantity memiliki nilai korelasi sebesar -0.003446. Nilai ini sangat mendekati nol, sehingga menunjukkan bahwa harga produk hampir tidak memiliki hubungan terhadap jumlah pembelian.
+Berdasarkan hasil analisis korelasi, hubungan antara unit_price_usd dan quantity / units_sold memiliki nilai korelasi sebesar -0.003446. Nilai ini sangat mendekati nol, sehingga menunjukkan bahwa harga produk hampir tidak memiliki hubungan terhadap jumlah pembelian.
 
 Meskipun terdapat arah korelasi negatif, nilainya sangat kecil sehingga dapat dianggap tidak signifikan. Hal ini menunjukkan bahwa produk dengan harga tinggi tidak selalu dibeli dalam jumlah sedikit, dan produk murah juga tidak selalu dibeli dalam jumlah banyak.
 
