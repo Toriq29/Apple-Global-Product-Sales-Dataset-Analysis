@@ -304,9 +304,9 @@ Meskipun terdapat arah korelasi negatif, nilainya sangat kecil sehingga dapat di
 
 Insight:
 
-Harga produk bukan faktor utama yang memengaruhi quantity pembelian
-Produk premium Apple tetap memiliki demand meskipun harga tinggi
-Loyalitas brand dan kebutuhan pengguna kemungkinan lebih berpengaruh dibanding harga
+- Harga produk bukan faktor utama yang memengaruhi quantity pembelian
+- roduk premium Apple tetap memiliki demand meskipun harga tinggi
+- Loyalitas brand dan kebutuhan pengguna kemungkinan lebih berpengaruh dibanding harga
 
 Kesimpulan:
 
