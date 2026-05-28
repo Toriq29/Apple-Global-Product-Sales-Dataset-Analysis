@@ -316,17 +316,58 @@ Dalam dataset ini, tidak ditemukan hubungan yang signifikan antara harga produk 
 
 Insight penting untuk preferensi spesifikasi (128GB, 256GB, dll).
 
+![Top 5 Data](Visualization/analyst_page-0013.jpg)
+
 ### 5. Produk dengan revenue tertinggi berasal dari banyak transaksi kecil atau sedikit transaksi besar?
 
 Membantu memahami pola pembelian customer.
+
+Berdasarkan hasil analisis, produk dengan revenue tertinggi yaitu Mac Pro (M2 Ultra) menghasilkan total revenue sebesar 3.724.222,55 USD. Meskipun bukan produk dengan penjualan unit terbanyak, Mac Pro tetap mampu menghasilkan revenue tertinggi karena memiliki harga jual yang sangat tinggi.
+
+Sementara itu, produk dengan unit terjual terbanyak adalah Apple Watch SE (2nd Gen) dengan total 664 unit, sedangkan Mac Pro (M2 Ultra) terjual sebanyak 546 unit. Dari sisi jumlah transaksi, Apple Watch SE tercatat muncul dalam 312 transaksi, sedangkan Mac Pro dalam 275 transaksi.
+
+Insight:
+
+Hasil ini menunjukkan bahwa revenue tertinggi tidak selalu berasal dari banyak transaksi kecil, tetapi juga dapat berasal dari transaksi bernilai besar. Dalam kasus ini, Mac Pro (M2 Ultra) memiliki jumlah transaksi yang relatif tidak jauh berbeda dengan Apple Watch SE, namun karena harga produknya jauh lebih mahal, total revenue yang dihasilkan menjadi paling tinggi.
+
+Kesimpulan:
+
+Revenue tertinggi pada dataset lebih dipengaruhi oleh nilai transaksi yang besar (high-value product) dibandingkan hanya volume penjualan semata. Hal ini menunjukkan bahwa produk premium memiliki kontribusi signifikan terhadap total pendapatan meskipun frekuensi pembeliannya tidak sebanyak produk mass market.
 
 ### 6. Apakah customer rating berhubungan dengan revenue atau jenis produk tertentu?
 
 Warna produk tertentu lebih diminati atau tidak berpengaruh signifikan?
 
+![Top 5 Data](Visualization/analyst_page-0015.jpg)
+
+Berdasarkan hasil analisis korelasi, hubungan antara customer_rating dan revenue_usd memiliki nilai korelasi sebesar 0.001143, yang menunjukkan bahwa hampir tidak terdapat hubungan antara rating pelanggan dan revenue. Hal ini mengindikasikan bahwa produk dengan rating tinggi belum tentu menghasilkan revenue yang lebih besar, begitu juga sebaliknya.
+
+Selain itu, hasil analisis rata-rata rating berdasarkan kategori produk menunjukkan bahwa seluruh kategori memiliki nilai rating yang relatif mirip, yaitu berada di sekitar angka 4.
+
+Rata-rata Customer Rating per Category:
+
+1. iPhone — 4.006
+2. Accessories — 4.004
+3. Mac — 4.001
+4. Apple Watch — 3.998
+5. AirPods — 3.995
+6. iPad — 3.986
+
+Insight:
+
+- Seluruh kategori produk Apple memiliki tingkat kepuasan pelanggan yang cenderung tinggi dan stabil
+- Perbedaan rating antar kategori sangat kecil, sehingga tidak ada kategori yang secara signifikan lebih disukai atau tidak disukai
+- Revenue produk kemungkinan lebih dipengaruhi oleh faktor lain seperti harga produk, segmentasi pasar, dan kebutuhan konsumen dibanding customer rating
+
+Kesimpulan:
+
+Dalam dataset ini, customer rating tidak memiliki hubungan signifikan terhadap revenue maupun kategori produk tertentu. Hal ini menunjukkan bahwa hampir seluruh lini produk Apple mampu menjaga tingkat kepuasan pelanggan yang konsisten.
+
 ### 7. Warna produk tertentu lebih diminati atau tidak berpengaruh signifikan?
 
 Bisa memberi insight tentang preferensi desain customer.
+
+![Top 5 Data](Visualization/analyst_page-0014.jpg)
 
 ### 8. Apakah ada perbedaan pola pembelian antarnegara?
 
@@ -336,6 +377,40 @@ Misalnya negara tertentu lebih suka iPhone, MacBook, atau aksesori.
 
 Penting untuk validasi kualitas data sekaligus memahami transaksi bernilai tinggi.
 
+Berdasarkan hasil analisis terhadap variabel unit_price_usd, revenue_usd, fx_rate_to_usd, dan revenue_local_currency, ditemukan beberapa nilai ekstrem yang awalnya terindikasi sebagai outlier. Namun, setelah dilakukan validasi melalui analisis distribusi data, pemeriksaan top transaksi, serta pengecekan konteks bisnis, nilai-nilai tersebut terbukti merupakan transaksi premium yang valid dan bukan kesalahan data atau anomali.
+
+Pada variabel unit_price_usd, nilai maksimum sebesar 7.551 USD berasal dari produk Mac Pro (M2 Ultra) yang memang termasuk kategori perangkat high-end dengan harga premium. Selanjutnya, pada revenue_usd, nilai tertinggi sebesar 59.529 USD berasal dari transaksi pembelian Mac Pro (M2 Ultra) sebanyak 5–8 unit, sehingga revenue besar tersebut masih logis secara bisnis.
+
+Sementara itu, nilai maksimum pada fx_rate_to_usd sebesar 24.500 juga bukan anomali, melainkan representasi kurs riil 1 USD terhadap Dong Vietnam pada periode 2022–2024. Dampak dari tingginya nilai tukar tersebut kemudian memengaruhi variabel revenue_local_currency, di mana nilai sebesar 507.517.500 berasal dari kombinasi kurs Vietnam yang tinggi dan transaksi pembelian produk premium bernilai besar.
+
+Insight:
+
+- Nilai ekstrem pada dataset lebih banyak berasal dari transaksi premium yang valid dibanding kesalahan data
+- Produk high-end seperti Mac Pro (M2 Ultra) memiliki kontribusi besar terhadap revenue
+- Perbedaan nilai tukar antarnegara dapat menghasilkan revenue lokal yang sangat besar
+- Tidak semua outlier harus dihapus karena beberapa merepresentasikan kondisi bisnis nyata
+
+Kesimpulan:
+
+Outlier revenue besar pada dataset ini bukan disebabkan oleh anomali data, melainkan berasal dari kombinasi transaksi premium, harga produk high-end, dan perbedaan kurs mata uang antarnegara. Oleh karena itu, nilai-nilai tersebut dipertahankan agar dataset tetap mampu merepresentasikan kondisi bisnis secara realistis dan menyeluruh.
+
 ### 10. Faktor apa yang paling berpengaruh terhadap revenue: harga, quantity, negara, atau kategori produk?
 
 Ini inti business insight paling penting untuk strategi penjualan.
+
+Berdasarkan hasil analisis korelasi, faktor yang paling berpengaruh terhadap revenue_usd adalah unit_price_usd dengan nilai korelasi sebesar 0.755070, yang menunjukkan hubungan positif kuat antara harga produk dan revenue. Hal ini mengindikasikan bahwa semakin tinggi harga produk, maka revenue yang dihasilkan cenderung semakin besar.
+
+Sementara itu, variabel units_sold memiliki korelasi sebesar 0.384497, yang menunjukkan hubungan positif namun tidak sekuat harga produk. Artinya, jumlah unit terjual memang memengaruhi revenue, tetapi kontribusinya masih lebih kecil dibanding harga produk itu sendiri.
+
+Di sisi lain, revenue_local_currency hanya memiliki korelasi sebesar 0.139827, sehingga pengaruhnya terhadap revenue_usd relatif lemah. Hal ini menunjukkan bahwa perbedaan mata uang lokal tidak terlalu menentukan besar kecilnya revenue dalam USD.
+
+Insight:
+
+- Revenue lebih dipengaruhi oleh produk dengan harga tinggi dibanding volume penjualan
+- Produk premium seperti Mac Pro memberikan kontribusi besar terhadap total revenue
+- Quantity tetap berpengaruh, tetapi bukan faktor utama
+- Faktor mata uang lokal memiliki pengaruh yang relatif kecil terhadap revenue dalam USD
+
+Kesimpulan:
+
+Dalam dataset ini, harga produk (unit_price_usd) merupakan faktor yang paling berpengaruh terhadap revenue. Temuan ini menunjukkan bahwa strategi penjualan produk premium memiliki dampak yang lebih besar terhadap peningkatan pendapatan dibanding hanya meningkatkan jumlah unit terjual.
