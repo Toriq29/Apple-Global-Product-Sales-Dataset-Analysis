@@ -408,6 +408,22 @@ Warna produk tampaknya memiliki pengaruh terhadap preferensi pembelian pelanggan
 
 Misalnya negara tertentu lebih suka iPhone, MacBook, atau aksesori.
 
+![Top 5 Data]()
+
+Berdasarkan hasil analisis preferensi kategori produk per negara, ditemukan bahwa iPhone merupakan kategori produk yang paling dominan di hampir seluruh negara dalam dataset. Negara-negara seperti Argentina, Australia, Austria, Brazil, China, Indonesia, Jepang, Malaysia, Mexico, hingga New Zealand menunjukkan bahwa iPhone menjadi kategori dengan jumlah pembelian tertinggi.
+
+Namun, terdapat satu pengecualian yang menarik, yaitu Canada, di mana kategori Accessories menjadi produk yang paling banyak dibeli dibandingkan kategori Apple lainnya.
+
+Insight:
+
+iPhone mendominasi preferensi pembelian di hampir seluruh negara, menunjukkan bahwa smartphone tetap menjadi produk utama dalam ekosistem Apple.
+Pola pembelian antarnegara cenderung serupa, dengan iPhone sebagai kategori favorit konsumen.
+Canada memiliki karakteristik yang berbeda karena Accessories menjadi kategori yang paling diminati, yang dapat mengindikasikan tingginya adopsi ekosistem Apple atau kebutuhan aksesori yang lebih besar dibandingkan perangkat utama.
+
+Kesimpulan:
+
+Secara umum, tidak ditemukan perbedaan pola pembelian yang signifikan antarnegara karena mayoritas negara menunjukkan preferensi yang sama terhadap kategori iPhone. Meskipun demikian, terdapat beberapa pengecualian seperti Canada yang lebih banyak membeli Accessories, menunjukkan bahwa preferensi konsumen dapat bervariasi pada pasar tertentu.
+
 ### 9. Outlier revenue besar berasal dari anomali data atau transaksi premium yang valid?
 
 Penting untuk validasi kualitas data sekaligus memahami transaksi bernilai tinggi.
