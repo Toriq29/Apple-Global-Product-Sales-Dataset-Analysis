@@ -369,6 +369,22 @@ Bisa memberi insight tentang preferensi desain customer.
 
 ![Top 5 Data](Visualization/analyst_page-0014.jpg)
 
+Berdasarkan hasil visualisasi data, ditemukan bahwa terdapat perbedaan preferensi warna produk di kalangan pelanggan. Tiga warna yang paling banyak dipilih adalah Silver dengan total 3.420 penjualan, diikuti Space Gray sebanyak 2.503 penjualan, dan Starlight sebanyak 2.416 penjualan.
+
+Top 3 Warna Terfavorit:
+
+1. Silver — 3.420 penjualan
+2. Space Gray — 2.503 penjualan
+3. Starlight — 2.416 penjualan
+
+Insight:
+
+Dominasi warna Silver, Space Gray, dan Starlight menunjukkan bahwa pelanggan Apple cenderung lebih menyukai warna-warna netral dan elegan dibandingkan warna yang lebih mencolok. Warna-warna tersebut dianggap lebih premium, profesional, serta cocok digunakan oleh berbagai segmen pengguna.
+
+Kesimpulan:
+
+Warna produk tampaknya memiliki pengaruh terhadap preferensi pembelian pelanggan. Hal ini terlihat dari adanya dominasi beberapa warna tertentu, khususnya Silver, Space Gray, dan Starlight, yang secara konsisten menjadi pilihan utama konsumen. Temuan ini menunjukkan bahwa aspek desain dan estetika produk turut berperan dalam keputusan pembelian pelanggan.
+
 ### 8. Apakah ada perbedaan pola pembelian antarnegara?
 
 Misalnya negara tertentu lebih suka iPhone, MacBook, atau aksesori.
