@@ -318,6 +318,25 @@ Insight penting untuk preferensi spesifikasi (128GB, 256GB, dll).
 
 ![Top 5 Data](Visualization/analyst_page-0013.jpg)
 
+Berdasarkan hasil visualisasi jumlah unit terjual berdasarkan kapasitas penyimpanan (storage), ditemukan bahwa 64 GB merupakan kapasitas yang paling diminati pelanggan dengan total 1.947 unit terjual. Posisi berikutnya ditempati oleh 256 GB sebanyak 1.888 unit, 512 GB sebanyak 1.861 unit, dan 1 TB sebanyak 1.849 unit.
+
+Top 5 Storage Terfavorit:
+1. 64 GB — 1.947 unit
+2. 256 GB — 1.888 unit
+3. 512 GB — 1.861 unit
+4. 1 TB — 1.849 unit
+5. 128 GB — 1.751 unit
+
+Insight:
+
+Menariknya, perbedaan jumlah penjualan antara kapasitas penyimpanan relatif kecil, terutama pada rentang 64 GB hingga 1 TB. Hal ini menunjukkan bahwa pelanggan tidak hanya berfokus pada kapasitas penyimpanan yang rendah untuk menghemat biaya, tetapi juga bersedia memilih kapasitas yang lebih besar sesuai kebutuhan penggunaan mereka.
+
+Selain itu, kapasitas 2 TB dan 2 TB SSD memiliki jumlah penjualan yang lebih rendah dibandingkan kapasitas lainnya. Hal ini mengindikasikan bahwa kebutuhan penyimpanan yang sangat besar hanya dibutuhkan oleh segmen pengguna tertentu, seperti profesional atau pengguna dengan kebutuhan komputasi tinggi.
+
+Kesimpulan:
+
+64 GB merupakan kapasitas penyimpanan yang paling diminati pelanggan, namun kapasitas yang lebih besar seperti 256 GB, 512 GB, dan 1 TB juga menunjukkan tingkat permintaan yang tinggi. Temuan ini mengindikasikan bahwa preferensi storage pelanggan Apple cukup beragam dan tidak hanya terpusat pada kapasitas penyimpanan yang paling murah atau paling kecil.
+
 ### 5. Produk dengan revenue tertinggi berasal dari banyak transaksi kecil atau sedikit transaksi besar?
 
 Membantu memahami pola pembelian customer.
